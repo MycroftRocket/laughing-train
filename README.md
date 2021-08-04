@@ -1,4 +1,4 @@
-# Backend - Typescript/Koa 채용 과제
+# Backend - Javascript/Koa 채용 과제
 
 ### 과제명 - 영화관 좌석예매 프로그램
 
