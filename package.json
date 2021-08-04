@@ -1,0 +1,38 @@
+{
+  "name": "mycroft-subject-js",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "author": "yatmak@mycroft.kr",
+  "license": "MIT",
+  "scripts": {
+    "generate": "",
+    "dev": "nodemon --watch src --delay 1 --exec 'babel-node' src/server.js",
+    "test": "jest --detectOpenHandles --forceExit"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.0",
+    "babel-jest": "^27.0.6",
+    "babel-polyfill": "^6.26.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^4.0.1",
+    "regenerator-runtime": "^0.13.9",
+    "supertest": "^6.1.4",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.9",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.9",
+    "babel-preset-es2015": "^6.24.1",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
